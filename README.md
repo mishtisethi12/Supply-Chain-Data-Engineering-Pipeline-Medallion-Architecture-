@@ -2,43 +2,43 @@
 
 1.Project Overview
 
-This project implements an end-to-end Data Engineering pipeline using a Medallion Architecture (Bronze, Silver, Gold) in Databricks with Delta Lake.
+-This project implements an end-to-end Data Engineering pipeline using a Medallion Architecture (Bronze, Silver, Gold) in Databricks with Delta Lake.
 
-The pipeline processes shipment-level data, performs transformations, builds business KPIs, and supports incremental processing using Delta MERGE.
+-The pipeline processes shipment-level data, performs transformations, builds business KPIs, and supports incremental processing using Delta MERGE.
 
 🏗 Architecture
 
-Bronze Layer: Raw data ingestion
+-Bronze Layer: Raw data ingestion
 
-Silver Layer: Data cleaning, revenue calculation, delay metrics
+-Silver Layer: Data cleaning, revenue calculation, delay metrics
 
-Gold Layer: Product-level aggregated KPIs
+-Gold Layer: Product-level aggregated KPIs
 
-Incremental Processing: Delta Lake MERGE for upsert logic
+-Incremental Processing: Delta Lake MERGE for upsert logic
 
-Data Quality Checks: Validation metrics stored in Delta tables
+-Data Quality Checks: Validation metrics stored in Delta tables
 
 ⚙️ Technologies Used
 
-Apache Spark
+-Apache Spark
 
-Delta Lake
+-Delta Lake
 
-Databricks
+-Databricks
 
-SQL
+-SQL
 
-Python (PySpark)
+-Python (PySpark)
 
 📊 Business Metrics Generated
 
-Total Revenue per Product
+-Total Revenue per Product
 
-Total Quantity Sold
+-Total Quantity Sold
 
-Total Orders
+-Total Orders
 
-Delay Rate
+-Delay Rate
 
 🔁 Incremental Strategy
 
@@ -46,8 +46,8 @@ The Gold layer supports incremental updates using Delta MERGE, ensuring scalabil
 
 📈 Future Improvements
 
-Workflow orchestration
+-Workflow orchestration
 
-Partitioning strategy
+-Partitioning strategy
 
-Performance optimization using OPTIMIZE & ZORDER
+-Performance optimization using OPTIMIZE & ZORDER

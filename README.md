@@ -1,4 +1,9 @@
 # Supply-Chain-Data-Engineering-Pipeline-Medallion-Architecture-
+# Supply Chain Data Pipeline
+
+End-to-end data engineering pipeline built using PySpark and Delta Lake following Medallion Architecture (Bronze, Silver, Gold) with incremental MERGE strategy.
+
+Tech: PySpark | Delta Lake | SQL
 
 1.Project Overview
 
